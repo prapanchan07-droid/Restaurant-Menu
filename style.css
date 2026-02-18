@@ -1,0 +1,135 @@
+.title {
+  font-family: "Playwrite AT", cursive;
+  text-align: center;
+}
+
+div{
+    font-family:cursive;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(80, 79, 79);
+}
+
+.menu{
+    position: relative;
+    width: 100%;
+    height: 220px;   /* control banner height */
+    overflow: hidden;
+    margin: 0;
+ }
+
+.menu img{
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.menu h1{
+    position: absolute;
+    top:50%;
+    color: white;
+    left:50%;
+    transform:translateX(-50% );;
+    margin:0;
+}
+
+.menu-content{
+    display: flex;
+}
+
+.varities1{
+    width: 50%;
+}
+
+.varities2{
+    width: 50%;
+}
+
+.Soups{
+    background-color: rgb(234, 14, 14);
+    margin:0;
+    padding-left: 30px;
+    color:aliceblue
+}
+
+.Soups h2{
+    margin: 0;
+}
+
+.container{
+    background-color: rgb(210, 24, 24);
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 10px;
+    padding-left: 10px;
+    border: 1px solid rgb(0, 0, 0);
+}
+
+.container:hover{
+    cursor: pointer;
+    transform: translateY(-5%);
+}
+.container-title{
+    background-color: rgb(210, 24, 24);
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    border: 1px solid rgb(0, 0, 0);
+}
+
+.container img{
+    width: 100px;
+    height:80px;
+}
+
+.Starters{
+    background-color: rgba(60, 224, 126, 0.775);
+    margin:0;
+    padding-left: 30px;
+    color:aliceblue
+}
+
+.Starters h2{
+    margin: 0;
+}
+
+.container1{
+    background-color: rgba(50, 234, 65, 0.459);
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 10px;
+    padding-left: 10px;
+    border: 1px solid rgb(0, 0, 0);
+}
+
+.container1:hover{
+    cursor: pointer;
+    transform: translateY(-5%);
+}
+
+.container-title1{
+    background-color: rgba(50, 234, 65, 0.459);
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    border: 1px solid rgb(0, 0, 0);
+}
+
+.container1 img{
+    width: 100px;
+    height:80px;
+}
